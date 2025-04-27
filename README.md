@@ -1,4 +1,5 @@
 # CiliaDetect
+<<<<<<< HEAD
 
 **Version 1.0**  
 _A semi-automated tool for fast detection and quantification of cilia from microscopy image stacks (ND2 format)_
@@ -183,3 +184,6 @@ MIT License or similar open-source license can be added.
 
 ---
 
+=======
+A semi-automated tool for fast detection and quantification of cilia from microscopy image stacks.
+>>>>>>> 1cc137d2da8bc5c441f697649f3d75fa1b3cbf53
