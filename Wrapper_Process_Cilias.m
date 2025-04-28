@@ -2,7 +2,7 @@
 % cilia are assumed to be in the 3rd channel
 % this is a wrapper file for the semi automated detection of cilia
 % author pmgarderes@gmail.com, ( and chatgpt 4o)
-
+  
 
 %% Prepare a bacth of reduced files: 
 foldername = 'D:\NIkon SoRA\IH25bis_VASP exp2-3_11-10-23' ; % 'D:\Image Coralie\IH19_pVASP_test2_7-24-23\SelectedND2\';

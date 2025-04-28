@@ -1,5 +1,4 @@
 # CiliaDetect
-<<<<<<< HEAD
 
 **Version 1.0**  
 _A semi-automated tool for fast detection and quantification of cilia from microscopy image stacks (ND2 format)_
@@ -41,19 +40,21 @@ It supports ND2 files (and downsampled stacks), semi-automated ROI detection, fl
 The main workflow is handled through a **single wrapper file**:  
 ▶️ **`Wrapper_Cilia_Process.m`**
 
-Users simply **open** the script, **set a few parameters**, and **evaluate line-by-line** (with F9 or right-click → Evaluate Section).
+ **open** the wrapper file (double click on the script in matlab or windows)  
+ **set parameters** ( change values of the parameters in the wrapper file 
+ **evaluate line-by-line chunks of code** (with F9 or right-click → Evaluate Section).
 
 ---
 
 ## 💪 Usage Procedure
 
-### 1. Prepare Downsampled Data (optional but recommended)
+### 1. Prepare Downsampled Data (optional but recommended if you have large files)
 
 If you have many `.nd2` files, you can pre-convert them into lightweight `.mat` stacks:
 
 ```matlab
 foldername = 'D:\Path\To\Your\Data';
-DSfactor = 25;
+DSfactor = 25; % Downsampling factor for Z-averaging (default: 25).
 batch_downsample_nd2_folder(foldername, DSfactor, true);
 ```
 
@@ -180,10 +181,14 @@ writetable(resultsTable, outputFilename);
 
 ## 📝 License
 
-MIT License or similar open-source license can be added.
+This project is licensed under the [MIT License]. see License.txx
 
 ---
 
-=======
-A semi-automated tool for fast detection and quantification of cilia from microscopy image stacks.
->>>>>>> 1cc137d2da8bc5c441f697649f3d75fa1b3cbf53
+
+## 📝 Citation
+
+see CITATION FILE
+
+
+---
